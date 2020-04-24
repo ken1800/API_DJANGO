@@ -12,7 +12,6 @@ router.register('feed',UserProfileFeedViewSet)
 
 
 
-
 urlpatterns = [
     path('proff/',HelloApiView.as_view()),
     path('login/',UserLoginApiView.as_view()),
